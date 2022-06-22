@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_Script: {fileID: -1810139221, guid: f389002fcd463a4322b6940096404f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 1
+  Type: 2
 --- !u!1 &115137482
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,58 +1211,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 115137482}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &121808512
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -25
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -30.975
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4148943330332070, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-      propertyPath: m_RootOrder
-      value: 19
-      objectReference: {fileID: 0}
-    - target: {fileID: 114306466438839232, guid: 623ac528e9357f746a067c4afbc8ecb3,
-        type: 2}
-      propertyPath: _objectToMove
-      value: 
-      objectReference: {fileID: 471475633}
-    - target: {fileID: 114898971595120520, guid: 623ac528e9357f746a067c4afbc8ecb3,
-        type: 2}
-      propertyPath: _objectSpawner
-      value: 
-      objectReference: {fileID: 1573194127}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 623ac528e9357f746a067c4afbc8ecb3, type: 2}
-  m_IsPrefabParent: 0
 --- !u!1 &127777979
 GameObject:
   m_ObjectHideFlags: 0
@@ -6239,88 +6187,6 @@ MonoBehaviour:
   MatDef: {fileID: 0}
   m_condition: 1
   AtlasMatDef: 892418936
---- !u!1 &471475632
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 471475633}
-  - component: {fileID: 471475636}
-  - component: {fileID: 471475635}
-  - component: {fileID: 471475634}
-  m_Layer: 0
-  m_Name: Makeshift Door
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &471475633
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 471475632}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.65, y: 1.1, z: -24}
-  m_LocalScale: {x: 0.05, y: 2.2, z: 1.2}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &471475634
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 471475632}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!65 &471475635
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 471475632}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!33 &471475636
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 471475632}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &478286595
 GameObject:
   m_ObjectHideFlags: 0
@@ -10489,7 +10355,7 @@ MonoBehaviour:
   m_Script: {fileID: -1810139221, guid: f389002fcd463a4322b6940096404f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 4
+  Type: 5
 --- !u!1 &860786195
 GameObject:
   m_ObjectHideFlags: 0
@@ -10828,7 +10694,7 @@ MonoBehaviour:
   m_Script: {fileID: -1810139221, guid: f389002fcd463a4322b6940096404f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 3
+  Type: 4
 --- !u!1 &883320405
 GameObject:
   m_ObjectHideFlags: 0
@@ -15212,7 +15078,6 @@ MonoBehaviour:
   IsAmmoInfinite: 0
   AllowsInfiniteAmmoMags: 1
   UsesUnlockSystem: 0
-  DefaultSoundEnvironment: 0
   BaseLoudness: 5
   UsesWeaponHandlingAISound: 0
   MaxImpactSoundEventDistance: 15
@@ -19726,7 +19591,7 @@ MonoBehaviour:
   m_Script: {fileID: -1810139221, guid: f389002fcd463a4322b6940096404f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 2
+  Type: 3
 --- !u!1 &1719429481
 GameObject:
   m_ObjectHideFlags: 0
@@ -22124,7 +21989,7 @@ MonoBehaviour:
   m_Script: {fileID: -1810139221, guid: f389002fcd463a4322b6940096404f59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Type: 1
+  Type: 2
 --- !u!1 &1914395525
 GameObject:
   m_ObjectHideFlags: 0
