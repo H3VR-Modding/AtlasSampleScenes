@@ -1,4 +1,4 @@
 Editor Scripts Version: 1.1.1
 Editor Samples Version: 2.0.0
 Atlas DLL Version: 1.0.1
-Required MeatKit Version: 1.0.0
+Required MeatKit Version: 2.0.0

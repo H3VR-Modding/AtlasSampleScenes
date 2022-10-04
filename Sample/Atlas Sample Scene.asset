@@ -20,10 +20,11 @@ MonoBehaviour:
   Description: The sample scenes for Atlas!
   AdditionalDependencies: []
   StripNamespaces: 1
-  AdditionalNamespaces: []
+  AdditionalNamespaces:
+  - SimpleLightProbePlacer
+  ApplyHarmonyPatches: 1
   BuildItems:
   - {fileID: 11400000, guid: 1d720bb5de0286042ae34e79dd940e2c, type: 2}
   - {fileID: 11400000, guid: 2c6d12b9dbb1df849b5ca6da2fa79111, type: 2}
-  BundleCompressionType: 2
   BuildAction: 2
   OutputProfile: C:/Users/nrgil/AppData/Roaming/r2modmanPlus-local/H3VR/profiles/Test
